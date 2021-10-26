@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addtask Page</title>
+</head>
+<body style="background-color: cadetblue;">
+    <h1><b>Welcome to the Addtask Page!!</b></h1>
+    <form>
+        Task Name(*):<input type="text" name="taskname"><br>
+        Description:<textarea name="textarea" rows="10" cols="30"></textarea><br>
+        DeadLine:<input type="date" name="date" min="20-10-2021" max="22-10-2021">
+         <select id = "time">
+             <option value="11:00:00">11AM</option>
+             <option value="12:00:00">12AM</option>
+         </select><br>
+Priority(*):<select id = "Priority">
+    <option value="L" selected>Low</option>
+    <option value="H">High</option>
+    <option value="M">Medium</option>
+</select><br>
+         <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
